@@ -4,5 +4,4 @@ public interface Exercise<T> {
 
 	public void doExercise();
 
-	public T getResult();
 }

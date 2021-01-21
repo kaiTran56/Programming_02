@@ -4,6 +4,28 @@ import java.util.Arrays;
 
 public class StringExercise implements Exercise<StringExercise> {
 
+	/**
+	 * @Answer:
+	 * 
+	 *          Q1: import to access built-in and user-defined packages into your
+	 *          java source file so that your class can refer to a class that is in
+	 *          another package by directly using its name.
+	 *          <p>
+	 *          Q2: 18
+	 *          <p>
+	 *          Q3: be be && true
+	 *          <p>
+	 *          Q5: true because of the same string pool memory which is a part in
+	 *          heap memory
+	 *          <p>
+	 *          Q6: characters: [t, o, , b, e, , o, r, , n, o, t, , t, o, , b, e]
+	 *          chars.length
+	 *          <p>
+	 *          Q7: print the result
+	 *          <p>
+	 *          Q8: It was converted to Char Arrays
+	 */
+
 	@Override
 	public void doExercise() {
 		System.out.println("<Exercise:4.3>");
@@ -12,6 +34,7 @@ public class StringExercise implements Exercise<StringExercise> {
 		// a string
 		/* Do some operations on string */
 		char chars[] = str.toCharArray();
+
 		// the array of characters
 		// that make up the string
 		// convert the array to string
@@ -33,7 +56,7 @@ public class StringExercise implements Exercise<StringExercise> {
 		System.out.println("characters: " + charsAsString);
 	}
 
-	public StringExercise getResult() {
+	public static StringExercise getResult() {
 		// TODO Auto-generated method stub
 		return new StringExercise();
 	}

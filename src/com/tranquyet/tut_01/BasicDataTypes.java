@@ -2,6 +2,26 @@ package com.tranquyet.tut_01;
 
 public class BasicDataTypes implements Exercise<BasicDataTypes> {
 
+	/**
+	 * @Answer:
+	 * 
+	 * 
+	 *          Q1: The procedure main like a key to help JVM which could recognize
+	 *          the code and run these
+	 *          <p>
+	 *          Q3: double is data types in Java
+	 *          <p>
+	 *          Q4: variable
+	 *          <p>
+	 *          Q5: method
+	 *          <p>
+	 *          Q6: with println will add 1 empty line break
+	 *          <p>
+	 *          Q8+9: It could run if the variable were be casting to Integer
+	 *          because of Double which is bigger than Integer with 8byte compare to
+	 *          4byte respectively
+	 * 
+	 */
 	@Override
 	public void doExercise() {
 
@@ -44,7 +64,7 @@ public class BasicDataTypes implements Exercise<BasicDataTypes> {
 
 	}
 
-	public BasicDataTypes getResult() {
+	public static BasicDataTypes getResult() {
 		// TODO Auto-generated method stub
 		return new BasicDataTypes();
 	}
